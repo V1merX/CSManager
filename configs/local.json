@@ -1,0 +1,64 @@
+{
+    "botToken": "",
+    "logger": {
+        "botDebug": false,
+        "development": false,
+        "encoding": "json"
+    },
+    "admins": {
+        "583064739": {
+            "flags": "z"
+        }
+    },
+    "servers": {
+        "topserver1": {
+            "ip": "37.230.162.200",
+            "port": 27015,
+            "rcon": {
+                "password": "1234",
+                "port": 27015
+            },
+            "databases": {
+                "iks-admin": {
+                    "db": "s1",
+                    "table": "iks_admins", 
+                    "server_id": "A"
+                },
+                "vip": {
+                    "db": "s1",
+                    "table": "vip_users",
+                    "server_id": "1"
+                }
+            }
+        },
+        "topserver2": {
+            "ip": "37.230.162.200",
+            "port": 27015,
+            "rcon": {
+                "password": "",
+                "port": 27015
+            },
+            "databases": {
+                "iks-admin": {
+                    "db": "s1",
+                    "table": "iks_admins",
+                    "server_id": "B"
+                },
+                "vip": {
+                    "db": "s1",
+                    "table": "vip_users",
+                    "server_id": "2"
+                }
+            }
+        }
+    },
+    "databases": {
+        "s1": {
+            "host": "",
+            "port": 3306,
+            "user": "",
+            "password": "",
+            "dbname": ""
+        }
+    }
+}
